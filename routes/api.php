@@ -15,4 +15,4 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/data', [ManipulateController::class, 'manipulateJsonData']);
+Route::get('/data', [ManipulateController::class, 'getData']);
